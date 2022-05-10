@@ -1,0 +1,35 @@
+{
+  "coverage": "87.87%",
+  "expectCount": 33,
+  "actualCount": 29,
+  "files": {
+    "src/clientUtil.js": {
+      "expectCount": 7,
+      "actualCount": 6,
+      "undocumentLines": [
+        19
+      ]
+    },
+    "src/feedUtil.js": {
+      "expectCount": 10,
+      "actualCount": 9,
+      "undocumentLines": [
+        16
+      ]
+    },
+    "src/filesUtil.js": {
+      "expectCount": 8,
+      "actualCount": 7,
+      "undocumentLines": [
+        14
+      ]
+    },
+    "src/pluginUtil.js": {
+      "expectCount": 8,
+      "actualCount": 7,
+      "undocumentLines": [
+        12
+      ]
+    }
+  }
+}
