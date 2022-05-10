@@ -37,7 +37,25 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content">
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="chris-utils-api">chris-utils API</h1><p>JavaScript 6 client for the chris-utils API.</p>
+<h2 id="usage">Usage</h2><pre><code class="lang-javascript"><code class="source-code prettyprint">import ClientUtil from &apos;chris-utils&apos;;
+
+const url = &quot;http://localhost:8000/api/v1/&quot;;
+const user = &quot;cube&quot;;
+const pass = &quot;cube1234&quot;;
+
+// Get a service object
+const clientService = await ClientUtil.getService(url,user,pass);
+
+// Access public methods 
+.
+.
+.
+const newFeed = await clientService.createUploadFeed(files,feedName);
+</code>
+</code></pre>
+<h2 id="error-handling">Error handling</h2><h2 id="api-reference">API reference</h2><p>Please check the API reference links to learn more about the <code>ClientUtil</code> object and other API resource objects and their functionality.</p>
+</div>
 </div>
 
 <footer class="footer">
