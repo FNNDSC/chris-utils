@@ -31,5 +31,8 @@ const newFeed = await clientService.createUploadFeed(files,feedName);
 
 ## API reference
 
+Please go through ChrisAPI docs before using this library on the link provided below
+https://fnndsc.github.io/fnndsc/chrisdoc/
+
 Please check the API reference links to learn more about the `ClientUtil` object and other API resource objects and their functionality.
 

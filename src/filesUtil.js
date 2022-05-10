@@ -31,7 +31,7 @@ export default class FilesUtil{
    *
    * @param {Array} files An array of files object
    *
-   * @return {Promise<String>}  JS Promise, resolves to a string value 
+   * @return {Promise<String>}  JS Promise, resolves to a string value representing a Swift store location
    */
   async uploadFiles(files){
     if(files.length==0){
@@ -64,8 +64,8 @@ export default class FilesUtil{
   /**
    * Download a zip file of a given pfdorun instance
    *
-   * @param {Object} pfdoInst Id of a particular feed in CUBE
-   * @param {String} zipName Id of a particular feed in CUBE
+   * @param {PluginInstance} pfdoInst Id of a particular ``pfdo`` instance in CUBE
+   * @param {String} zipName File name for the downloading zip
    * 
    */
   async downloadZip(pfdoInst,zipName){
@@ -89,7 +89,7 @@ export default class FilesUtil{
    * Private method to download a blob/file/stream from CUBE 
    *
    * @param {String} url API endpoint to a particular resource in CUBE
-   * @response {Promise} JS promise, resolves to a string value
+   * @return {Promise<Blob>} JS promise, resolves to a ``Blob`` object
    */
   _download(url){
     const req = new Request(this.chrisClient.auth, 'application/octet-stream', 30000000);

@@ -106,7 +106,7 @@ export default class FeedUtil{
   /**
    * Get the cumulative run time of a given feed
    *
-   * @param {Object} feed A Feed object
+   * @param {Feed} feed A Feed object
    *
    * @return {Promise<number>} A JS Promise, resolves to a number representing feed's run time
    *
@@ -129,7 +129,7 @@ export default class FeedUtil{
   /**
    * Get the total file size of a given feed
    *
-   * @param {object} feed A Feed object
+   * @param {Feed} feed A Feed object
    *
    * @return {Promise<number>} A JS Promise, resolves to a number represnting feed's size
    */
@@ -149,7 +149,7 @@ export default class FeedUtil{
   /**
    * Get the progress of a given feed
    *
-   * @param {Object} feed A Feed object
+   * @param {Feed} feed A Feed object
    *
    * @return {Promise<number>} A JS Promise, resolves to a number representing feed's progress
    */
