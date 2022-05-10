@@ -1,7 +1,4 @@
-
-js/rev/scripts/
-js/rev/library-anon/
-js/rev/node_modules/
-js/rev/package-lock.json
-js/rev/build/
+/node_modules
+/dist
+/.cache
 
